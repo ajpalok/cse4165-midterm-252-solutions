@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI'
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    color: white;
+    background-color: #244481;
+}
+
+#title {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background: radial-gradient(circle, #3e5d9a 0%, #244481 100%);
+}
+
+.sidebar ul{
+    /* padding: 20px; *//* to show that the lists are having bullet points  */
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 20px;
+    font-size: 20px;
+}
+
+#active {
+    border-left: 5px solid white;
+    background: linear-gradient(90deg, #385388 0%, #4a6592 100%);
+}
+
+
+
+
+.content {
+    width: 80%;
+    height: 100%;
+    background-color: #f1f2f6;
+}
+
+#header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header h2 {
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#search {
+    width: 25%;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.courses {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 5px rgba(42, 42, 42, 10%);
+}
+
+.course_details {
+    color: #f1f2f6;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 20px 20px 0 0;
+}
+
+.course_details h3 {
+    font-size: 25px;
+}
+
+.progress {
+    height: 130px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.progress_details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #385388;
+}
+
+.bar {
+    margin-top: 30px;
+    width: 100%;
+    height: 6px;
+    background: #f1f2f6;
+    border-radius: 10px;
+}
+
+.bar_progress {
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+#upcoming-classes {
+    width: 95%;
+    background-color: #fff;
+    margin: 25px;
+    margin-left: 40px;
+    margin-top: 45px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#upcoming-classes h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.class_items_list{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 15px; */
+}
+
+.class_item {
+    width: 32.5%;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.class_item time {
+    font-size: 18px;
+}
+
+.class_item h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.class_item .badge {
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+}
